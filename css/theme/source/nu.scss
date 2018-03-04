@@ -21,14 +21,14 @@ $backgroundColor: #fff;
 $mainColor: #222;
 $headingColor: #222;
 
-$mainFontSize: 42px;
+$mainFontSize: 26px;
 $mainFont: Gotham, Helvetica, sans-serif;
 $headingFont: Gotham, Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingFontWeight: 600;
-$linkColor: #2a76dd;
+$linkColor: #8d3dc8;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -41,6 +41,26 @@ section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 	}
+}
+
+.left {
+  text-align: left;
+}
+
+.purple {
+  color: #8D3DC8 !important;
+}
+
+.footer {
+  bottom: 40px;
+  position: fixed;
+  left: 0;
+  font-size: 24px;
+  color: #82269E;
+}
+
+.stack {
+  height: 100px;
 }
 
 
