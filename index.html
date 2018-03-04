@@ -24,73 +24,102 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
   <body>
     <div class="reveal">
       <div class="slides">
-        <!-- #8D3DC8 foregound -->
+        <p class="footer">@marinalimeira_</p>
+
         <section data-background-color="#82269E">
-          about us 
-          <ul>
-            <li>Cartão</li>
-            <li>NuConta</li>
-            <li>Rewards</li>
-          </ul>
+          <h1>some title</h1>
         </section>
 
         <section>
-          <h1>processo</h1>
+          <h3>Marina Limeira</h3>
+          <p>Engenheira de Software @ Nubank</p>
+          <p>Estudando Ciência da Computação @ PUC-SP</p>
+          <a href="www.marinalimeira.com" class="purple-link">marinalimeira.com</a>
+        </section>
+
+        <section data-background-image="images/products.png" class="left">
+          <h3>Cartão</h3>
+          <h3>NuConta</h3>
+          <h3>Rewards</h3>
+        </section>
+
+        <section>
+          <img class="stack" src="images/clojure-logo.png" />
+          <img class="stack" src="images/datomic-logo.png" />
+          <img class="stack" src="images/kafka-logo.png" />
+          <img class="stack" src="images/cljs-logo.png" />
+          <img class="stack" src="images/react-logo.png" />
+          <img class="stack" src="images/graphql-logo.png" />
+        </section>
+
+        <section>
+          <h2>micro-serviços 💜</h2>
+          <img src="images/microsservices.png" />
+        </section>
+
+        <section>
+          <h2>Ports and Adapters</h2>
+          <p style="color: red;">desenho hexagono</p>
+        </section>
+
+        <section>
+          <h1>CI + CD</h1>
+          <p>Merge no <b>master</b> -> prod</p>
+        </section>
+
+        <section>
+          <h2>Pipeline (GO)</h2>
+          <p style="color: red;">desenho pipeline flow</p>
+        </section>
+
+        <section>
+          <h1 class="purple">Build and Run</h1>
+          <h3>Testes Unitários</h3>
+          <h3>Postman</h3>
+          <h3>Docker</h3>
+        </section>
+
+        <section>
+          <h2>Testes Unitários</h2>
+        </section>
+
+        <section>
+          <h2>Imutabilidade 😍 </h2>
+        </section>
+
+        <section>
+          <h2>Postman</h2>
+        </section>
+
+        <section>
+          <h1 class="purple">E2E</h1>
+          <p>(sem UI)</p>
+        </section>
+
+        <section>
+          <h1 class="purple">TO-PROD</h1>
+        </section>
+
+        <section>
           <ul>
-            <li>no qas</li>
-            <li>Entrega Contínua</li>
+            <li>Não temos QAs</li>
             <li>Roll out de features</li>
           </ul>
         </section>
 
         <section>
-          Arquitetura micro servi'cos
+          <h1>Staging</h1>
+          <p>Mobile & Testes entre os serviços</p>
         </section>
 
-
-        <section>
-          desenho
+        <section data-background-color="#82269E">
+          <h1>Dúvidas? 🤔</h1>
         </section>
 
-
-        <section>
-          ports and adapters
+        <section data-background-color="#82269E">
+          <h1>Obrigada!</h1>
+          <a href="http://sou.nu/vagasnu">sou.nu/vagasnu</a>
         </section>
-
-        <section>
-          fluxos de teste
-          build n teste- unit- postman
-          - create docker
-
-          e2e (sem ui)
-          - queremos demover rs
-
-          prod (merge master
-        </section>
-
-        <section>
-          staging vai se/quando a gente quer, merge master é pq entra no definition of done
-          </section>
-
-        <section>
-          unitarios
-        </section>
-
-        <section>
-          postman
-        </section>
-
-        <section>
-          e2e
-        </section>
-
-        <section>
-          highlight das secoes no posts n adapters?
-          </section>
-
-
-
-        <section>Slide 2</section>
       </div>
     </div>
 
@@ -102,6 +131,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
       // - https://github.com/hakimel/reveal.js#configuration
       // - https://github.com/hakimel/reveal.js#dependencies
       Reveal.initialize({
+        transition: 'fade',
         backgroundTransition: 'fade',
         dependencies: [
           { src: 'plugin/markdown/marked.js' },
